@@ -14,6 +14,7 @@ if len(sys.argv) != 2 :
 	print('Usage:\n\tdocker_pull.py [registry/][repository/]image[:tag|@digest]\n')
 	exit(1)
 
+
 # Look for the Docker image to download
 repo = 'library'
 tag = 'latest'
